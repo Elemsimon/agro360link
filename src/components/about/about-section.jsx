@@ -16,14 +16,14 @@ export default function AboutSection() {
           whileInView={{ opacity: 1 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 1.5, delay: 0.3 }}
-          className="flex flex-row space-x-28"
+          className="flex lg:flex-row flex-col space-x-28"
         >
           
           {/* Badge */}
           {/* <span className="inline-flex w-fit items-center rounded-full bg-green-100 px-4 py-1 text-sm text-green-600">
             ● About Us
           </span> */}
-          <div>
+          <div className="pb-10 lg:pb-0">
             <Badge text="About Us"/>
           </div>
           
@@ -54,9 +54,6 @@ export default function AboutSection() {
             </Button>
           </div>
         </div>
-          
-          
-
         </motion.div>
       </div>
     </section>

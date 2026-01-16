@@ -17,7 +17,7 @@ export default function WhyChooseSection() {
         >
 
         {/* Header */}
-        <div className="grid gap-40 lg:grid-cols-2">
+        <div className="grid gap-10 lg:gap-40 lg:grid-cols-2">
           <div className="space-y-4">
           <Badge text="Why us"/>
 
@@ -26,7 +26,7 @@ export default function WhyChooseSection() {
             </h2>
           </div>
 
-          <p className="max-w-md text-gray-600 lg:mt-12">
+          <p className="max-w-md text-gray-600 mt-0 lg:mt-12">
             Choosing the right export partner matters. We simplify access to high-quality African agricultural products by working directly with farmers, maintaining strict quality controls, and delivering export-ready goods you can trust.
           </p>
         </div>

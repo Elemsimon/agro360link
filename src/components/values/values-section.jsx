@@ -29,7 +29,7 @@ export default function ValuesSection() {
             </h2>
           </div>
 
-          <div className="flex flex-col justify-between space-y-6">
+          <div className="flex flex-col justify-between space-y-6 mt-0 lg:mt-12">
             <p className="text-gray-600">
              Our values guide everything we do from how we work with farmers to how we serve global buyers. We are committed to delivering export-ready agricultural products through ethical sourcing, transparency, and long-term partnerships built on trust.
             </p>

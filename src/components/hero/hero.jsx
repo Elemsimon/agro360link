@@ -9,7 +9,7 @@ import HeroThumbnails from "./hero-thumbnails"
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen overflow-hidden">
+    <section className="relative min-h-screen sm:min-h-screen overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0">
         <Image
@@ -23,7 +23,7 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <Navbar />
 
         <motion.div
@@ -31,7 +31,7 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 1.5, delay: 0.5 }}
-          className="mt-16 lg:mt-24"
+          className="mt-20 sm:mt-12 md:mt-16 lg:mt-24"
         >
           <HeroContent />
         </motion.div>
